@@ -1,0 +1,19 @@
+{
+  "name": "renovate-config-avern",
+  "version": "0.0.0",
+  "description": "Avern preset for Renovate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avern-studio/renovate-config.git"
+  },
+  "scripts": {
+    "test": "renovate-config-validator default.json"
+  },
+  "files": [
+    "default.json"
+  ],
+  "devDependencies": {
+    "renovate": "latest"
+  },
+  "packageManager": "pnpm@10.20.0"
+}
